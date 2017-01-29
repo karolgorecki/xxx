@@ -18084,5 +18084,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.UserMedia.prototype.exps.InterimTranscript,
 	cr.plugins_.Text.prototype.cnds.CompareText,
 	cr.plugins_.Sprite.prototype.acts.SetVisible,
-	cr.plugins_.Sprite.prototype.acts.SetSize
+	cr.plugins_.Sprite.prototype.acts.SetSize,
+	cr.system_object.prototype.cnds.Every
 ];};
